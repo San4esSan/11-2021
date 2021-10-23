@@ -61,7 +61,21 @@ h1 {
 ul, ol {
   padding-left: 20px;
 }
-
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: auto;
+}
+.box {
+  padding: 15px;
+  & a {
+    text-decoration: none;
+    color: #000;
+  }
+}
 
 
 @import 'media';
