@@ -15,7 +15,7 @@ h1 {
   .element-content {
     display: none;
     padding: 20px;
-    font-size: 13px;
+    font-size: 14px;
   }
   .element {
     margin-bottom: 6px;
@@ -30,10 +30,6 @@ h1 {
       letter-spacing: 0.5px;
       position: relative;
       transition: all 200ms ease-out;
-
-      &:hover {
-        color: #333333;
-      }
     }
 
     &.active {
